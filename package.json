@@ -1,0 +1,33 @@
+{
+  "name": "bookingbuddies",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is a guest to employee allocation system to enhance guest interaction and personalization",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/navansami/bookingbuddies.git"
+  },
+  "author": "Navan Sami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navansami/bookingbuddies/issues"
+  },
+  "homepage": "https://github.com/navansami/bookingbuddies#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "read-excel-file": "^5.8.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
